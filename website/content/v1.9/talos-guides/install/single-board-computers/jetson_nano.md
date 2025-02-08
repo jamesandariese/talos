@@ -73,7 +73,7 @@ lsusb | grep -i "nvidia"
 Now we can move on the flashing the firmware.
 
 ```bash
-sudo ./flash p3448-0000-max-spi external
+sudo ./flash.sh p3448-0000-max-spi external
 ```
 
 This will flash the firmware to the Jetson Nano SPI flash and you'll see a lot of output.
